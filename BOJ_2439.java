@@ -17,8 +17,8 @@ public class BOJ_2439 {
 		 * 
 		 * 	https://github.com/yeolpyeong/boj/blob/master/boj2439.java
 		 * 	
-		 * 	for (int i = 0; i < n; i++) {
-		 * 		for (int j = 0; j < n; j++) {
+		 * 	for (int i = 1; i <= n; i++) {
+		 * 		for (int j = 1; j <= n; j++) {
 		 * 			System.out.print( j <= n - i ? " " : "*");		<< nice approach
 		 * 		}
 		 * 		System.out.println();
