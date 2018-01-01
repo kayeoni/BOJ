@@ -10,11 +10,9 @@ import java.util.*;
 public class BOJ_1924 {
 	public static void main(String [] args) {
 		Scanner sc = new Scanner(System.in);
-		String str = sc.nextLine();
+		int m = sc.nextInt();
+		int d = sc.nextInt();
 		sc.close();
-		String [] tempstr = str.split(" ");
-		int m = Integer.parseInt(tempstr[0]);
-		int d = Integer.parseInt(tempstr[1]);
 		String [] namesOfDays = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};
 		int [] daysOfMonths = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		if (m == 1 && d == 1)
